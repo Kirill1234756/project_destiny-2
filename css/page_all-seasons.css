@@ -1,0 +1,23 @@
+hr.vertical {
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+.season-23__img-size {
+    height: 400px;
+    width: 100%;
+}
+
+.all-seasons__img-size {
+    height: 300px;
+    width: 100%;
+}
+
+.all-seasons__hover {
+    transition: transform 0.4s;
+}
+.all-seasons__hover:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
