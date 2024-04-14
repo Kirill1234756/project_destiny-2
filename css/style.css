@@ -1,0 +1,14 @@
+section {
+  padding: 2rem 0;
+}
+
+body {
+  background: #12171c;
+  color: white;
+}
+
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
