@@ -30,3 +30,6 @@
 .f {
     transition: transform 0.25s ease-in-out 0s;
 }
+.call-doom__card-gap {
+    gap: 1.5rem;
+}
