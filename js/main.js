@@ -1,3 +1,4 @@
+
 // Season of desire
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.link-tab').forEach(function(tabLink) {
@@ -14,3 +15,4 @@ document.addEventListener('DOMContentLoaded', function() {
       })
     })
   })
+
