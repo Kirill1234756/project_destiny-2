@@ -1,0 +1,35 @@
+.final__img-grid  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+    gap: 10px; 
+    height: 300px;
+}
+
+.final__img-grid  .final-wrap__img-grid {
+    border: 1px solid white;
+}
+
+.final__grid-markup {
+    grid-area: 1 / 1 / 2 / 3;
+    align-content: center;
+}
+
+.final__img-name {
+    width: 25rem;
+}
+
+/* hover */
+.overflow {
+    overflow: hidden;
+
+}
+
+.f:hover {
+    transform: scale(1.1);
+}
+.f {
+    transition: transform 0.25s ease-in-out 0s;
+}
+.call-doom__card-gap {
+    gap: 1.5rem;
+}
