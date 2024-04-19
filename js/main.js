@@ -1,16 +1,18 @@
-// page_all-seasons
 
+// Season of desire
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.link-tab').forEach(function(tabLink) {
+      tabLink.addEventListener('click', function(event) {
+        const path = event.currentTarget.dataset.path
+        document.querySelectorAll('.link-tab').forEach(function(tabContent){
+          tabContent.classList.remove('btn_active')
+        });
+        event.currentTarget.classList.add("btn_active")
+        document.querySelectorAll('.box').forEach(function(tabContent) {
+          tabContent.classList.remove('box_active')
+        })
+        document.querySelector(`[data-target="${path}"]`).classList.add('box_active')
+      })
+    })
+  })
 
-// увеличение
-// let imgHovers = document.querySelectorAll(".all-seasons__hover");
-
-// imgHovers.forEach((value) => {
-//   console.log();
-//   value.addEventListener("mouseover", function () {
-//     value.style.transform = "scale(1.2)";
-//   });
-
-//   value.addEventListener("mouseout", function () {
-//     value.style.transform = "scale(1)";
-//   });
-// });

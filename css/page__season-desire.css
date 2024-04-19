@@ -1,0 +1,20 @@
+.box {
+  display: none;
+}
+
+.box_active {
+  display: flex;
+}
+
+.btn_active {
+  background: rgb(64, 67, 64);
+}
+
+.box > img {
+    transition: transform 0.4s;
+}
+
+.box > img:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
